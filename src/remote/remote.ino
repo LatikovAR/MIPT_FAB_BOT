@@ -29,5 +29,5 @@ void loop() {
   Serial.print("\t"); 
   Serial.print(pultValues[2]);
   Serial.print("\n");
-  radio.write(pultValues, 12); // Отправляем считанные показания по радиоканалу
+  radio.write(pultValues, 6); // Отправляем считанные показания по радиоканалу
 }
